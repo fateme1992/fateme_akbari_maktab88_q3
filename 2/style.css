@@ -1,0 +1,10 @@
+.progressBar{
+    width: 80%;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 5px;
+}
+
+.progBg{
+    background-color: aqua;
+}

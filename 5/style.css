@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.left-nav {
+    width: 20%;
+    background-color: #eee;
+    height: 100%;
+    border-right: 1px solid rgb(167, 166, 166);
+}
+
+#london,
+#tehran,
+#tokyo {
+    padding: 1rem;
+}
+
+#london:hover {
+    background-color: rgb(133, 133, 133);
+}
+
+#tehran:hover {
+    background-color: rgb(133, 133, 133);
+}
+
+#tokyo:hover {
+    background-color: rgb(133, 133, 133);
+}
+
+.caption{
+    padding: 1rem;
+}
+.caption h1{
+    margin-bottom: 1rem;
+}
